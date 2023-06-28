@@ -27,14 +27,15 @@ with open('messages.csv') as csvFile:
         if (i) % 8 == 0:
             x = 0
             y = 0
-            pageCount += 1
 
             if (i != 0):
+                pageCount += 1
+
                 page.save(f"output/page{pageCount}.jpg")
 
             page = PIL.Image.new(mode="RGB", size=(int(NOTES_PER_PAGE * NOTE_WIDTH / 2), int(NOTES_PER_PAGE * NOTE_HEIGHT / 4)), color=(255, 255, 255))
     
-        img = Image.open('note-card-template-resized.png')
+        img = Image.open('templates/note-card-template-resized.png')
         
         # Call draw Method to add 2D graphics in an image
         I1 = ImageDraw.Draw(img)
@@ -53,4 +54,5 @@ with open('messages.csv') as csvFile:
         
     
     else:
+        pageCount += 1
         page.save(f"output/page{pageCount}.jpg")
