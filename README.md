@@ -60,6 +60,7 @@ Areas that could be improved and potential future development tasks include:
 - Enhancing the template design options
 - Adding support for additional card formats and layouts
 - Implementing a graphical user interface (GUI) for easier interaction
+- Increasing the customization options that the user has
 
 ## Contact
 
