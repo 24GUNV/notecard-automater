@@ -30,6 +30,10 @@ The Card Automation Project simplifies the process of creating cards for various
 
 ## Screenshots
 
+Example Template:
+
+![note-card-template-resized](https://github.com/24GUNV/stucoProj/assets/38719890/e443575c-06a6-4851-af29-2b5b614a9269)
+
 Example Input:
 
 ![data](https://github.com/24GUNV/stucoProj/assets/38719890/4198fb13-b899-4e2d-b231-8ff0e9b619d4)
