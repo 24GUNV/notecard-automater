@@ -1,6 +1,6 @@
 import PIL
 from PIL import Image
 
-im = Image.open("note-card-template.jpg")
-im = im.resize((400, 400))
-im.save(f"note-card-template-resized.png")
+im = Image.open("templates/high qual.png")
+im = im.resize((1328, 885))
+im.save(f"templates/christmas card resized.png")
